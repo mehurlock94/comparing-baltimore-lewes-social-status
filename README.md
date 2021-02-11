@@ -49,5 +49,9 @@ By summarizing the data into a Pivot Table, we can see that Baltimore, MD and Le
 __Do teen births and/or single parent homes put individuals at an economic disadvantage?__
 ![alt text](https://github.com/mehurlock94/comparing-baltimore-lewes-social-status/blob/main/Teen_Poverty.png)
 
+A scatterplot of Teen Birth Rate vs. Poverty Rate suggests a correlation for both locations. While we cannot conclude that there is some sort of causation, it is at least reasonable that giving birth as a teen would contribute to a higher prevalence of poverty. A teenager of any age has not had the time to seek education or establish a career and are therefore will have little to no dispensable funds following the birth of a child.
 
+![alt text](https://github.com/mehurlock94/comparing-baltimore-lewes-social-status/blob/main/Teen_Single.png)
+
+Interestingly, there is an apparent difference in the relationship between Single Mothers 
 
