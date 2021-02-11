@@ -53,5 +53,21 @@ A scatterplot of Teen Birth Rate vs. Poverty Rate suggests a correlation for bot
 
 ![alt text](https://github.com/mehurlock94/comparing-baltimore-lewes-social-status/blob/main/Teen_Single.png)
 
-Interestingly, there is an apparent difference in the relationship between Single Mothers 
+Interestingly, there is an apparent difference in the relationship between Teen Birth Rate and Single Parent Frequency when comparing Lewes to Baltimore. Baltimore shows a clear, positive linear relationship between Teen Birth Rate and Single Parent Frequency. By contrast, Lewes appears to show no relationship between these metrics, or even a slight negative correlation. This suggests that while many teen births in Baltimore result in single parent househoulds, Lewes may see a higher incidence of teen moms staying with their partner, perhaps getting married. 
+
+![alt text](https://github.com/mehurlock94/comparing-baltimore-lewes-social-status/blob/main/Single_Poverty.png)
+
+Another striking difference between Baltimore and Lewes is observed in the relationship between Single Parent Frequency and Poverty Rate. In Baltimore, single parenthood is positively correlated to poverty rate. This is contrary to what is observed in Lewes where the two are not correlated. As stated before, there are many things contributing to poverty rate, so the extent of causation is not clear. However, this does suggest that being a single parent in Lewes is easier than in Baltimore. Indeed, the average median income in Lewes is $31,290 (SD = 3,401) compared to $26,015 (SD = 5,485) in Baltimore, while the average median rent in Lewes is only $75 per month ($900 annually) higher than Baltimore. This means that single parents in Lewes are more likely to be able to sustain themselves than in Baltimore.
+
+![alt text](https://github.com/mehurlock94/comparing-baltimore-lewes-social-status/blob/main/Baltimore_Lewes_single_teen_income_rent.png)
+
+## __Does living where one was raised determine their economic prosperity?__
+The [article](https://www.nytimes.com/2015/05/04/upshot/an-atlas-of-upward-mobility-shows-paths-out-of-poverty.html) in The New York Times pointed out that moving children into better neighborhoods increases their likelihood for upward mobility. We wanted to investigate whether remaining where one was raised is also a hinderance. To do this, we compared Median Household Income (MHI) to the MHI of those Staying in their Commuter Zone.
+
+![alt text](https://github.com/mehurlock94/comparing-baltimore-lewes-social-status/blob/main/Baltimore_Lewes_CZ_data.png)
+
+Strikingly, staying where one was raised is correlated with lower earnings. In Baltimore, the MHI of those who live near where they were raised is approximately $5,000 (-15%) below the unfiltered median income for the same area. For Lewes, this figure is approximately $10,000 (-20%) below. While it is difficult to speculate on what is the cause for this, one possibility is that people who stay where they were raised are limiting their opportunities. People who branch out may be doing so in pursuit of a higher-paying job or of better long-term economic prospects. The data also show that on average 78% of individuals from Baltimore remain in their childhood commuter zone compared to 65% from Lewes. As discussed above, this small difference in percentage amounts to thousands more people living near their childhood home in Baltimore.
+
+## Business Answer
+
 
