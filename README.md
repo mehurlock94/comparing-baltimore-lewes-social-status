@@ -26,17 +26,11 @@ For detailed workflow, please see [data analysis](https://github.com/mehurlock94
 
 ## Data Question - Analysis
 Microsoft Excel was used to answer the following:
-1. __What key metrics are correlated with higher prosperity?__ Variables listed under "Data Question - Open Data" were analyzed in Excel using a heat map to quickly visualize relationships. Variables that appeared correlated were analyzed further using a combination of Pivot Tables, charts, statistics, and trendlines.
 1. __What socio-economic differences exist between Baltimore, MD and Lewes, DE?__ Key community metrics including % Non-White Individuals, Employment Rate, and Household Income were compared between the municipalities using Pivot Tables, mean and standard deviation.
 1. __Do teen births and/or single parent homes put individuals at an economic disadvantage?__ Each metric was analyzed againsted the other and against poverty rate to find correlations. Trendlines were fit to scatterplots of the paired metrics.
 1. __Does living where one was raised determine their economic prosperity?__ Household incomes for the full populations were compared against the household incomes of individuals who still live in the commuter zone from their childhood using Pivot Tables, mean and standard deviation.
 
 ## Data Answer
-__What key metrics are correlated with higher prosperity?__
-![alt text](https://github.com/mehurlock94/comparing-baltimore-lewes-social-status/blob/main/Baltimore_Lewes_metric_heatmap.png)
-
-Here we see some interesting metrics pulled from the [Opportunity Atlas Project](https://www.opportunityatlas.org/). Heat maps were generated using conditional formating to differentiate cells by increasing value. This highlights that higher incomes are anti-correlated to Fraction of Non-White Individuals, Frequency of Single Parents, and Frequency of Teen Moms. The data also show that living near one's hometown is associated with a lower household income.
-
 __What socio-economic differences exist between Baltimore, MD and Lewes, DE?__
 ![alt text](https://github.com/mehurlock94/comparing-baltimore-lewes-social-status/blob/main/Baltimore_Lewes_socioeconomic.png)
 
@@ -62,7 +56,7 @@ The [article](https://www.nytimes.com/2015/05/04/upshot/an-atlas-of-upward-mobil
 
 ![alt text](https://github.com/mehurlock94/comparing-baltimore-lewes-social-status/blob/main/Baltimore_Lewes_CZ_data.png)
 
-Strikingly, staying where one was raised is correlated with lower earnings. In Baltimore, the MHI of those who live near where they were raised is approximately $5,000 (-15%) below the unfiltered median income for the same area. For Lewes, this figure is approximately $10,000 (-20%) below. While it is difficult to speculate on what is the cause for this, one possibility is that people who stay where they were raised are limiting their opportunities. People who branch out may be doing so in pursuit of a higher-paying job or of better long-term economic prospects. The data also show that on average 78% of individuals from Baltimore remain in their childhood commuter zone compared to 65% from Lewes. As discussed above, this small difference in percentage amounts to thousands more people living near their childhood home in Baltimore.
+Strikingly, staying where one was raised is correlated with lower earnings. In Baltimore, the MHI of those who live near where they were raised is approximately $5,000 (-14%) below the unfiltered median income for the same area. For Lewes, this figure is approximately $10,000 (-21%) below. While it is difficult to speculate on what is the cause for this, one possibility is that people who stay where they were raised are limiting their opportunities. People who branch out may be doing so in pursuit of a higher-paying job or of better long-term economic prospects. The data also show that on average 78% of individuals from Baltimore remain in their childhood commuter zone compared to 65% from Lewes. As discussed above, this small difference in percentage amounts to thousands more people living near their childhood home in Baltimore.
 
 ## Data Interpretation
 
