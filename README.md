@@ -32,8 +32,22 @@ Data from Baltimore locations were further processed to include only locations w
 Microsoft Excel was used to answer the following:
 1. __What key metrics are correlated with higher prosperity?__ Variables listed under "Data Question - Open Data" were analyzed in Excel using a heat map to quickly visualize relationships. Variables that appeared correlated were analyzed further using a combination of Pivot Tables, charts, statistics, and trendlines.
 1. __What socio-economic differences exist between Baltimore, MD and Lewes, DE?__ Key community metrics including % Non-White Individuals, Employment Rate, and Household Income were compared between the municipalities using Pivot Tables, mean and standard deviation.
-1. __Do teen births and/or single parent homes put individuals at a disadvantage?__ Each metric was analyzed againsted the other and against poverty rate to find correlations. Trendlines were fit to scatterplots of the paired metrics.
+1. __Do teen births and/or single parent homes put individuals at an economic disadvantage?__ Each metric was analyzed againsted the other and against poverty rate to find correlations. Trendlines were fit to scatterplots of the paired metrics.
 1. __Does living where one was raised determine their economic prosperity?__ Household incomes for the full populations were compared against the household incomes of individuals who still live in the commuter zone from their childhood using Pivot Tables, mean and standard deviation.
+
+## Data Answer
+__What key metrics are correlated with higher prosperity?__
+![alt text](https://github.com/mehurlock94/comparing-baltimore-lewes-social-status/blob/main/Baltimore_Lewes_metric_heatmap.png)
+
+Here we see some interesting metrics pulled from the [Opportunity Atlas Project](https://www.opportunityatlas.org/). Heat maps were generated using conditional formating to differentiate cells by increasing value. This highlights that higher incomes are anti-correlated to Fraction of Non-White Individuals, Frequency of Single Parents, and Frequency of Teen Moms. The data also show that living near one's hometown is associated with a lower household income.
+
+__What socio-economic differences exist between Baltimore, MD and Lewes, DE?__
+![alt text](https://github.com/mehurlock94/comparing-baltimore-lewes-social-status/blob/main/Baltimore_Lewes_socioeconomic.png)
+
+By summarizing the data into a Pivot Table, we can see that Baltimore, MD and Lewes, DE differ greatly in at least two different socio-economic metrics. First, the average employment rate in Baltimore is approximately 70% compared to 80% in Lewes. It's important to note that Baltiomre (15,450 people/sq. mile) is almost 40x more dense than Lewes (407 people/sq. mile). This means that while the difference between 70% and 80% does not seem large, this difference equates to thousands more people living unemployed. Additionally, the fraction of non-white individuals is approximately 10% in Lewes compared to 60% in Baltimore. It is worth noting that there is a high degree of variance between tracts in Baltimore and some of these have fractions of non-white individuals of 100%. This suggests that from a cultural standpoint, successful strategies used for poverty intervention may vary greatly between Baltimore and Lewes.
+
+__Do teen births and/or single parent homes put individuals at an economic disadvantage?__
+![alt text](https://github.com/mehurlock94/comparing-baltimore-lewes-social-status/blob/main/Teen_Poverty.png)
 
 
 
