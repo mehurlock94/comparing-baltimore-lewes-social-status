@@ -3,7 +3,7 @@
 ## Background
 A recent [article](https://www.nytimes.com/2015/05/04/upshot/an-atlas-of-upward-mobility-shows-paths-out-of-poverty.html) in The New York Times highlighted some key findings from the Opportunity Atlas [database](https://www.opportunityatlas.org/). One key finding showed that moving children from poor neighborhoods to middle-class neighborhoods greatly improved the childrens' likelihood for success in adulthood. While the prevalence of children from poor communities attending college is [increasing](https://www.insidehighered.com/news/2019/05/23/pew-study-finds-more-poor-students-attending-college#:~:text=The%20total%20share%20of%20undergraduate,to%2047%20percent%20in%202016.), growing up in poverty has [lasting effects](https://www.insightintodiversity.com/povertys-long-lasting-effects-on-students-education-and-success/) on an individual's ability to perform in college. The best effort to equalize all childrens' opportunity for pursuing the "American Dream" is therefore rooted in mitigating the factors that contribute to a child being raised in poverty. 
 
-This investigation seeks to identify some of the key metrics that contribute to a child gainaing upward mobility based on data from two municipalities (Baltimore, MD and Lewes, DE). Both locations are situated on the east coast. Baltimore is a major city with a wide range of races, education systems and social status. Lewes is a small town with less diversity but better prospects for upward mobility. The results reported here demonstrate that income level is not always negatively affected by teen pregnancy, but single parenthood is associated with increased poverty rate. Additionally, the data suggest that moving away from one's original home may lead to better prosperity.
+This investigation seeks to identify some of the key metrics that contribute to a child gainaing upward mobility based on data from two municipalities (Baltimore, MD and Lewes, DE). Both locations are situated on the east coast. Baltimore is a major city with a wide range of races, education systems and social status. Lewes is a small town with less diversity but better prospects for upward mobility. The results reported here demonstrate that income level is not always negatively affected by single parenthood, but teen pregnancy is associated with increased poverty rate. Additionally, the data suggest that moving away from one's original home may lead to better prosperity.
 
 ## Business Question
 __Helping individuals ascend from poverty is beneficial to the economy as it reduces resources given to these individuals as aid while giving them the power to spend more. What key factors should be targeted to increase upward mobility in cities like Baltimore, MD?__
@@ -22,11 +22,7 @@ All data from this analysis comes from the [Opportunity Atlas Project](https://w
 - [Frequency of Teen Births](https://github.com/mehurlock94/comparing-baltimore-lewes-social-status/blob/main/tract_teenbirth_rP_gF_pall.csv)
 - [Employment Rate](https://github.com/mehurlock94/comparing-baltimore-lewes-social-status/blob/main/tract_working_rP_gP_pall.csv)
 
-Data were imported into excel and filtered based on two locations: 
-1. Baltimore, MD
-1. Lewes, DE
-
-Data from Baltimore locations were further processed to include only locations which exist within Baltimore city limits. Some data points were designated as Baltimore, MD but truly occurred outside these boundaries. The raw data compiled for analysis are included [here](https://github.com/mehurlock94/comparing-baltimore-lewes-social-status/blob/main/Mini_Project_1_raw_data.xlsx).
+For detailed workflow, please see [data analysis](https://github.com/mehurlock94/comparing-baltimore-lewes-social-status/blob/main/data-analysis-workflow.md)
 
 ## Data Question - Analysis
 Microsoft Excel was used to answer the following:
