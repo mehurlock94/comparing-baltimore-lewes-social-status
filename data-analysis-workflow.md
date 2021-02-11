@@ -6,7 +6,7 @@ Data were imported into Excel and filtered based on two locations:
 1. Baltimore, MD
 1. Lewes, DE
 
-Data from Baltimore locations were further processed to include only locations which exist within Baltimore city limits. Some data points were designated as Baltimore, MD but truly occurred outside these boundaries. The raw data compiled for analysis are included [here](https://github.com/mehurlock94/comparing-baltimore-lewes-social-status/blob/main/Mini_Project_1_raw_data.xlsx).
+Data from Baltimore locations were further processed to include only locations which exist within Baltimore city limits. Some data points were designated as Baltimore, MD but truly occurred outside these boundaries. The raw data compiled for analysis are included [here](https://github.com/mehurlock94/comparing-baltimore-lewes-social-status/blob/main/Mini_Project_1_raw_data.xlsx). The Excel file with manupulated data is inlcuded [here](https://github.com/mehurlock94/comparing-baltimore-lewes-social-status/blob/main/comparing-baltimore-lewes-social-status.xlsx).
 
 Once the data had been organized by true Baltimore locations and Lewes locations, a heat map was used to quickly observe trends in the data. 
 
